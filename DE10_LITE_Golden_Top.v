@@ -20,11 +20,11 @@
 `define ENABLE_HEX5
 `define ENABLE_KEY
 `define ENABLE_LED
-`define ENABLE_SW
+//`define ENABLE_SW
 //`define ENABLE_VGA
 //`define ENABLE_ACCELEROMETER
 //`define ENABLE_ARDUINO
-`define ENABLE_GPIO
+//`define ENABLE_GPIO
 
 module DE10_LITE_Golden_Top(
 
@@ -36,6 +36,7 @@ module DE10_LITE_Golden_Top(
 `ifdef ENABLE_CLOCK1
 	input 		          		MAX10_CLK1_50,
 `endif
+/*
 	//////////// CLOCK 2: 3.3-V LVTTL //////////
 `ifdef ENABLE_CLOCK2
 	input 		          		MAX10_CLK2_50,
@@ -55,7 +56,7 @@ module DE10_LITE_Golden_Top(
 	output		          		DRAM_UDQM,
 	output		          		DRAM_WE_N,
 `endif
-
+*/
 	//////////// SEG7: 3.3-V LVTTL //////////
 `ifdef ENABLE_HEX0
 	output		     [7:0]		HEX0,
@@ -85,7 +86,7 @@ module DE10_LITE_Golden_Top(
 `ifdef ENABLE_LED
 	output		     [9:0]		LEDR,
 `endif
-
+/*
 	//////////// SW: 3.3-V LVTTL //////////
 `ifdef ENABLE_SW
 	input 		     [9:0]		SW,
@@ -119,6 +120,7 @@ module DE10_LITE_Golden_Top(
 `ifdef ENABLE_GPIO
 	inout 		    [35:0]		GPIO
 `endif
+*/
 );
 
 
