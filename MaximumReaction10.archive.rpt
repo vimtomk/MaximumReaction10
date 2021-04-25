@@ -1,0 +1,87 @@
+Archive Project report for MaximumReaction10
+Wed Apr 21 23:41:36 2021
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Apr 21 23:41:36 2021 ;
+; Revision Name          ; MaximumReaction10                     ;
+; Top-level Entity Name  ; DE10_LITE_Golden_Top                  ;
+; Family                 ; MAX 10                                ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Custom' contains:
+    Info: Programming output files
+    Info: Automatically detected source files
+    Info: Project source and settings files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/MaximumReaction10.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'MaximumReaction10.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4835 megabytes
+    Info: Processing ended: Wed Apr 21 23:41:36 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++-------------------------------------------+
+; Files Archived                            ;
++-------------------------------------------+
+; File Name                                 ;
++-------------------------------------------+
+; DE10_LITE_Golden_Top.v                    ;
+; debounce.v                                ;
+; hex_driver.v                              ;
+; MaximumReaction10.qpf                     ;
+; MaximumReaction10.qsf                     ;
+; MaximumReaction10_assignment_defaults.qdf ;
+; msec_timer.v                              ;
+; output_files/MaximumReaction10.jdi        ;
+; output_files/MaximumReaction10.pof        ;
+; output_files/MaximumReaction10.sld        ;
+; output_files/MaximumReaction10.sof        ;
++-------------------------------------------+
+
+

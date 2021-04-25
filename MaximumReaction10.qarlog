@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/MaximumReaction10.qarlog
+
+Archive:	D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/MaximumReaction10.qar
+Date:		Wed Apr 21 23:41:36 2021
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/DE10_LITE_Golden_Top.v
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/MaximumReaction10.qpf
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/MaximumReaction10.qsf
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/MaximumReaction10_assignment_defaults.qdf
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/debounce.v
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/hex_driver.v
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/msec_timer.v
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/output_files/MaximumReaction10.jdi
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/output_files/MaximumReaction10.pof
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/output_files/MaximumReaction10.sld
+D:/cooper/Documents/UAH/S2021/CPE-324-01/FinalProject/output_files/MaximumReaction10.sof
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
