@@ -24,7 +24,7 @@
 //`define ENABLE_VGA
 //`define ENABLE_ACCELEROMETER
 //`define ENABLE_ARDUINO
-//`define ENABLE_GPIO
+`define ENABLE_GPIO
 
 module DE10_LITE_Golden_Top(
 
@@ -86,6 +86,7 @@ module DE10_LITE_Golden_Top(
 `ifdef ENABLE_LED
 	output		     [9:0]		LEDR,
 `endif
+
 /*
 	//////////// SW: 3.3-V LVTTL //////////
 `ifdef ENABLE_SW
@@ -115,12 +116,12 @@ module DE10_LITE_Golden_Top(
 	inout 		    [15:0]		ARDUINO_IO,
 	inout 		          		ARDUINO_RESET_N,
 `endif
-
+*/
 	//////////// GPIO, GPIO connect to GPIO Default: 3.3-V LVTTL //////////
 `ifdef ENABLE_GPIO
 	inout 		    [35:0]		GPIO
 `endif
-*/
+
 );
 
 
@@ -237,5 +238,3 @@ debounce #(.DWELL_CNT(16'd1)) dbc0 (
 );
 
 endmodule
-
-
